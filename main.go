@@ -5,6 +5,7 @@ import (
 	"nicerslicermain/nicerslicer"
 )
 
+var S = "Canada";
 
 func main() {
 
