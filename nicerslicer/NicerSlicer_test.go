@@ -5,7 +5,7 @@ import (
 )
 
 func TestSplit(t *testing.T) {
-	str := `Don't communicate by sharing memory`
+	str := `Don't communicate by sharing memory - share memory by communicating`
 	sl := NewNicerSlicer(str)
 
 	splitSlices := sl.Split("-")
