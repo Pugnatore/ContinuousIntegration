@@ -1,0 +1,2 @@
+# github.com/srfrog/slices v1.0.1
+github.com/srfrog/slices
