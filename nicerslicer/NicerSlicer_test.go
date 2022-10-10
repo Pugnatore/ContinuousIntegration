@@ -33,3 +33,4 @@ func TestChunk(t *testing.T) {
 		t.Fatalf(`Expected last chunk to be of length 1. Got %v`, splitChunks)
 	}
 }
+

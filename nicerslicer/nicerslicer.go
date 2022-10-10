@@ -11,7 +11,7 @@ type NicerSlicer struct {
 }
 
 func NewNicerSlicer(sentence string) *NicerSlicer {
-	 result NicerSlicer = NicerSlicer{
+	var result NicerSlicer = NicerSlicer{
 		slices: strings.Split(sentence, " "),
 	}
 	return &result
